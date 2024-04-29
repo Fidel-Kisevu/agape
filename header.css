@@ -34,7 +34,19 @@
     text-shadow: #132436;
     text-decoration: underline;
   }
+  .navbar {
+    overflow: hidden; /* Clear floats */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+   
   
+    
+  }
   
     }
   
