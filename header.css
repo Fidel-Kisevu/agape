@@ -1,0 +1,272 @@
+/*THE MENU*/
+.header{
+    background-color: #132436;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin: 0;
+    z-index: 999;
+}
+/*The Main menu icon*/
+.logo{
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.menu-text{
+  font-size: 22px;
+  padding-right:10px;
+ 
+}
+.fas{
+  padding-right: 20px;
+font-size: 30px;
+}
+#menu-open{
+  display: none;
+  
+ 
+ 
+   
+}
+#close-menu {
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+#close-menu{
+  font-size: 30px;
+  display: none;
+  padding-right: 20px;
+  margin: 0px;
+  padding-left: 4px;
+ 
+}
+#close-menu:hover{
+  color: rgb(226, 84, 84);
+}
+
+
+
+
+
+
+
+.main-menu-items{
+  background-color: #132436;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  position:fixed;
+  display: flexbox;
+  width: 100%;
+  
+}
+.main-menu-items li a{
+  text-decoration: none;
+  color: #f8f9fa;
+  
+
+}
+.main-menu-items li{
+padding: 20px;
+}
+
+
+
+
+ /*navigationsbar*/
+ .navbar {
+  overflow: hidden; /* Clear floats */
+  display: flex;
+  justify-content:flex-end;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  
+}
+
+.navbar a {
+  display:block; /* Make the links a block element */
+  color: #132436; /* Text color */
+ text-align: center;/* Center-align text */
+  padding: 10px 18px ; /* Add padding to the links for spacing */
+  text-decoration: none; /* Remove underlines from links */
+  font-size: 18px; 
+
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+  background-color: #132436 ;  /* Background color on hover */
+  color:white; /* Text color on hover */
+  opacity: 0.9; /*for transparency*/
+  border-radius: 15px;
+}
+.bible-button{
+  border: 1px solid burlywood;
+  border-radius: 19px;
+  color: white;
+  background-color: beige;
+}
+
+
+#first-line{
+  margin: 5px;
+}
+/*navigation end*/
+
+
+
+
+.Dec-theme{
+    margin:7px auto;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/pictures/life2\ \(4\).jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    background-attachment: scroll;
+}
+.topic{
+    width: 80%;
+    margin: auto ;
+    text-align: center;
+    padding-top:0 ;
+    border: 1px solid rgb(238, 183, 82);
+    border-radius: 10px;
+}
+.Main-text{
+    
+        width: 80%;
+        margin: auto ;
+        text-align: center;
+        padding-top:0 ;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .mon{
+        color: rgb(0, 204, 255);
+    }
+    .content{
+
+        width: 80%;
+        margin: auto;
+        font-weight: 500;
+        padding-top: 0;
+    
+        padding: 5px;
+    }
+    .Every-day-reading{
+        margin: 100px auto;
+        width: 80%;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pictures/life2\ \(3\).jpeg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0;
+        color: wheat;
+    }
+    .hero-btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background:transparent ;
+        position: relative;
+        cursor: pointer;
+
+    
+    }
+    .hero-btn:hover{
+        opacity:0.6 ;
+        transition: 0.15s;
+    }
+
+
+
+
+   
+/* Footer styles Start */
+footer {
+    background-color: #132436;
+    color: #fff;
+    padding: 60px 0;
+  }
+  .col{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+  
+
+  }
+  
+  .container {
+    text-align: left;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h4 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff38b;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .social-icons i {
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover i {
+    color: #f8f9fa; /* Change to a lighter color on hover */
+  }
+  .period{
+    text-align: center;
+    padding-top: 5px;
+  }
+  /*Footer styles End*/
+
