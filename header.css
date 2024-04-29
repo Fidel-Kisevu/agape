@@ -16,45 +16,7 @@
     z-index: 999;
 }
 
-@media (min-width: 768px) {
 
-  .menu-text{
-    display: none;
-  }
-  .logo{
-    font-size: 14px;
-  }
-  .navbar a{
-    font-size: 14px;
-  }
-  h1{
-    font-size: 120%;
-    padding: 10px;
-    color: #007bff;
-    text-shadow: #132436;
-    text-decoration: underline;
-  }
-  .navbar {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding-top: 60px;
-    padding-bottom: 0px;
-    border-radius: 10px;
-    margin-top: 15px;
-   
-  
-    
-  }
-  .navbar a {
-    display:block; /* Make the links a block element */
-    color: #132436; /* Text color */
-   text-align: center;/* Center-align text */
-    text-decoration: none; /* Remove underlines from links */
-    font-size: 18px; 
-  
-  }
-    }
   
 /*The Main menu icon*/
 .logo{
@@ -79,6 +41,46 @@ h1{
   padding-right: 20px;
 font-size: 30px;
 }
+@media (max-width: 768px) {
+
+  .menu-text{
+    display: none;
+  }
+  
+  .logo{
+    font-size: 14px;
+  }
+  .navbar a{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 120%;
+    padding: 10px;
+    color:#132436;
+    text-shadow: #132436;
+    text-decoration: underline;
+  }
+  .navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+   
+  
+    
+  }
+  .navbar a {
+    display:block; /* Make the links a block element */
+    color: #132436; /* Text color */
+   text-align: center;/* Center-align text */
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 18px; 
+  
+  }
+    }
 #menu-open{
   display: none;
   
