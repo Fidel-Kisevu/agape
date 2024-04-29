@@ -35,7 +35,6 @@
     text-decoration: underline;
   }
   .navbar {
-    overflow: hidden; /* Clear floats */
     display: flex;
     justify-content:space-between;
     align-items: center;
