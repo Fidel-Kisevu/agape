@@ -6,11 +6,9 @@ main{
     padding-left: 20px;
     padding-right: 20px;
 }
-.p{
-    font-size: 22px;
-    vertical-align: baseline;
-    margin: 0 auto 2rem;
-    line-height: 24px;
+.para{
+    font-size: 18px;
+    line-height: 20px;
     max-width: 552px;
 
 }

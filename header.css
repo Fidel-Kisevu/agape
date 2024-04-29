@@ -26,6 +26,14 @@
   padding-right:10px;
  
 }
+h1{
+  font-size: 120%;
+  padding: 10px;
+  color: #132436;
+  text-shadow: #132436;
+  text-decoration: underline;
+}
+
 .fas{
   padding-right: 20px;
 font-size: 30px;
@@ -163,13 +171,18 @@ padding: 20px;
         font-weight: 600;
         font-size: 20px;
     }
+    .topic-text{
+      color: #4d4d4d;
+      font-size: 18px;
+
+    }
     .mon{
         color: rgb(0, 204, 255);
     }
     .content{
 
-        width: 80%;
-        margin: auto;
+        width: 95%;
+        margin:auto;
         font-weight: 500;
         padding-top: 0;
     
@@ -270,3 +283,25 @@ footer {
   }
   /*Footer styles End*/
 
+
+  @media (max-width: 650px) {
+
+.menu-text{
+  display: none;
+}
+.logo{
+  font-size: 14px;
+}
+.navbar a{
+  font-size: 14px;
+}
+h1{
+  font-size: 120%;
+  padding: 10px;
+  color: #132436;
+  text-shadow: #132436;
+  text-decoration: underline;
+}
+
+
+  }
