@@ -15,6 +15,29 @@
     margin: 0;
     z-index: 999;
 }
+
+@media (max-width: 650px) {
+
+  .menu-text{
+    display: none;
+  }
+  .logo{
+    font-size: 14px;
+  }
+  .navbar a{
+    font-size: 14px;
+  }
+  h1{
+    font-size: 120%;
+    padding: 10px;
+    color: #132436;
+    text-shadow: #132436;
+    text-decoration: underline;
+  }
+  
+  
+    }
+  
 /*The Main menu icon*/
 .logo{
   padding-left: 15px;
@@ -283,25 +306,3 @@ footer {
   }
   /*Footer styles End*/
 
-
-  @media (max-width: 650px) {
-
-.menu-text{
-  display: none;
-}
-.logo{
-  font-size: 14px;
-}
-.navbar a{
-  font-size: 14px;
-}
-h1{
-  font-size: 120%;
-  padding: 10px;
-  color: #132436;
-  text-shadow: #132436;
-  text-decoration: underline;
-}
-
-
-  }
