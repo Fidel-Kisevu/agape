@@ -16,7 +16,7 @@
     z-index: 999;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
 
   .menu-text{
     display: none;
