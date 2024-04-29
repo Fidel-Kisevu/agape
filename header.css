@@ -46,7 +46,14 @@
   
     
   }
+  .navbar a {
+    display:block; /* Make the links a block element */
+    color: #132436; /* Text color */
+   text-align: center;/* Center-align text */
+    text-decoration: none; /* Remove underlines from links */
+    font-size: 18px; 
   
+  }
     }
   
 /*The Main menu icon*/
@@ -128,7 +135,6 @@ padding: 20px;
 
  /*navigationsbar*/
  .navbar {
-  overflow: hidden; /* Clear floats */
   display: flex;
   justify-content:flex-end;
   padding-top: 60px;
